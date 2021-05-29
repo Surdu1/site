@@ -1,0 +1,63 @@
+.i{
+    height:100vh;
+    width:30%;
+    background: linear-gradient(#1f35e0,#e01f1f);
+    transition:2s;
+    position:fixed;
+
+}
+
+.i:hover{
+    background: linear-gradient(#e01f1f,#1f35e0);
+}
+.o{
+
+    margin-left:31%;
+
+}
+.card{
+  float:left;
+   width:30vw;
+   margin: 10px;
+}
+.d{
+  width: 100%;
+  height: 100%;
+}
+.i:hover{
+    box-shadow: 0 5px 10px 0 black;
+}
+.i a{
+    text-decoration: none;
+    color:white;
+    font-size: 3vh;
+    transition: 1s;
+
+}
+
+
+@media all and (max-width:531px){
+    .i {
+        display: none;
+    }
+    .o{
+      margin-left: 0;
+    }
+    .card{
+      width:100%;
+      margin: 0;
+
+    }
+}
+#i1:hover a{
+    color: rgb(255, 145, 0);
+}
+#i2:hover a{
+    color: rgb(0, 225, 255);
+}
+#i3:hover a{
+    color: rgb(255, 0, 179);
+}
+#i4:hover a{
+    color: rgb(255, 0, 0);
+}

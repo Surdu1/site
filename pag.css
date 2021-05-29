@@ -1,0 +1,10 @@
+.o img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vh;
+}
+.o{
+  width: 100%;
+  overflow: hidden;
+}

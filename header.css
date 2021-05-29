@@ -1,0 +1,42 @@
+*{
+  padding:0;
+  margin:0;
+}
+nav.navbar{
+  background-color: blueviolet;
+}
+.icons-btn{
+  display: inline-block;
+  cursor: pointer;
+}
+.icon-menu{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.mult{
+  font-size:100%;
+  color:black;
+}
+@media all and(max-width:990px){
+
+  .mult{
+    font-size:60%;
+    width: 50%;
+  }
+
+}
+.icons a{
+  text-decoration: none;
+}
+.icons-btn span{
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  color:#fff;
+}
+
+.bag{
+  position: relative;
+}
